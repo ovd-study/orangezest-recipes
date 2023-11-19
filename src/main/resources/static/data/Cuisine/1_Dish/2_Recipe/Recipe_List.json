@@ -1,0 +1,33 @@
+[
+	{
+		"id": 1,
+		"category": "Main",
+		"timeRequired": "30 mins",
+		"ingredients": [
+			"2 cups elbow macaroni (or similar type pasta)",
+			"3 tbsp unsalted butter",
+			"3 tbsp all-purpose flour",
+			"2 cups whole or 2% milk (warmed in the microwave for 1 min)",
+			"1 tsp salt",
+			"1 1/2 tsp onion powder",
+			" 1 1/2 tsp garlic powder",
+			" 1/2 tsp ground mustard (*add 1/2 tsp more if you want more of a kick)",
+			"1/2 tsp black pepper",
+			"1 cup freshly shredded sharp cheddar cheese",
+			"1/2 cup freshly shredded mozzarella cheese",
+			"1/2 cup freshly shredded pepper jack cheese"
+		],
+		"steps": [
+			"Pour your macaroni noodles into lightly salted boiling water. Cook until Al dente",
+			"Add 3 tbps of unsalted butter to a large pot and cook until completely melted",
+			"Add 3 tbps of flour into the same pot and whisk for about 1-2 mins on medium heat. It should be light brown ",
+			"Add your milk into the pot a little bit a time. Whisk each time you pour the milk, and whisk until creamy.",
+			"Mix up all your seasonsings in a small bowl and then add it to the pot.",
+			"Add the shredded cheese one at a time. Whisk until smooth and melted.",
+			"Now turn off the heat and the macaroni noodles into the pot. Stir until evenly combined."
+		],
+		"imagePath": "images/MacAndCheese.jpg",
+		"idDish": "2"
+	}
+	
+]

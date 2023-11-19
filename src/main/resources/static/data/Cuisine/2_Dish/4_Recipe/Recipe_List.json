@@ -1,0 +1,36 @@
+[
+	{
+		"id": 1,
+		"category": "Desert",
+		"timeRequired": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"Ingredients": [
+			"aaa",
+			"aaa",
+			"aaa"
+		],
+		"steps": [
+			"aaa",
+			"aaa",
+			"aaa"
+		],
+		"imagePath": "images/AmericanCuisine.jpg",
+		"idDish": "1"
+	},
+	{
+		"id": 1,
+		"category": "Desert",
+		"timeRequired": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"Ingredients": [
+			"bbb",
+			"bbb",
+			"bbb"
+		],
+		"steps": [
+			"bbb",
+			"bbb",
+			"bbb"
+		],
+		"imagePath": "images/Chocolate-Chunk.jpg",
+		"idDish": "1"
+	}
+]

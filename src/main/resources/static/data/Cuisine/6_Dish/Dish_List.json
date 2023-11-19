@@ -1,0 +1,54 @@
+[
+	
+	{
+		"id": 1,
+		"title": "Souvlaki",
+		"description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"imagePath": "images/FriedChicken.jpg",
+		"idCuisine": "6"
+	},
+	{
+		"id": 2,
+		"title": "Tiropita",
+		"description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"imagePath": "images/FriedChicken.jpg",
+		"idCuisine": "6"
+	},
+	{
+		"id": 3,
+		"title": "Kreatopita",
+		"description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"imagePath": "images/FriedChicken.jpg",
+		"idCuisine": "6"
+	},
+	{
+		"id": 4,
+		"title": "Horiatiki Salata",
+		"description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+		"imagePath": "images/FriedChicken.jpg",
+		"idCuisine": "6"
+	}
+]
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>OrangeZest Recipes - Cuisine Menu</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/app.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-warning">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">OrangeZest Recipes</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+				aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login/Sign Up</a></li>
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+						data-bs-toggle="dropdown" aria-expanded="false"> My Profile </a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Saved Recipes</a></li>
+							<li><a class="dropdown-item" href="#">Account Info</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="#">Logout</a></li>
+						</ul></li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="my-3"></div>
+	<h2 class="text-center">Pick a Cuisine</h2>
+	<hr class="new5" />
+
+	<div class="container">
+		<div class="row">
+			<div class="card col-sm-6" th:each="listItem : ${listData}">
+				<span th:text="${listItem.id}"></span> <img class="card-img-top" th:src="${listItem.imagePath}" width="612"
+					height="404" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${listItem.title}"></h5>
+					<p class="card-text" th:text="${listItem.description}"></p>
+					<a th:href="@{/dish-menu-page(idCuisine=${listItem.id})}" class="btn btn-primary">Go To Dishes</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
