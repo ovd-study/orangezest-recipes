@@ -2,8 +2,8 @@ package model;
 
 public class Dish {
 	Integer id;
-	String Title;
-	String Description;
+	String title;
+	String description;
 	String imagePath;
 	Integer idCuisine;
 
@@ -16,19 +16,19 @@ public class Dish {
 	}
 
 	public String getTitle() {
-		return Title;
+		return title;
 	}
 
 	public void setTitle(String title) {
-		Title = title;
+		this.title = title;
 	}
 
 	public String getDescription() {
-		return Description;
+		return description;
 	}
 
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
 
 	public String getImagePath() {

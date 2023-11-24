@@ -3,14 +3,13 @@ package model;
 public class Recipe {
 
 	Integer id;
-	String author;
 	String category;
 	String timeRequired;
 	String[] ingredients;
 	String[] steps;
+	String[] credits;
 	String imagePath;
 	Integer idDish;
-	String [] credits;
 
 	public Integer getId() {
 		return id;
@@ -18,14 +17,6 @@ public class Recipe {
 
 	public void setId(Integer id) {
 		this.id = id;
-	}
-
-	public String getAuthor() {
-		return author;
-	}
-
-	public void setAuthor(String author) {
-		this.author = author;
 	}
 
 	public String getCategory() {
@@ -58,6 +49,14 @@ public class Recipe {
 
 	public void setSteps(String[] steps) {
 		this.steps = steps;
+	}
+
+	public String[] getCredits() {
+		return credits;
+	}
+
+	public void setCredits(String[] credits) {
+		this.credits = credits;
 	}
 
 	public String getImagePath() {
