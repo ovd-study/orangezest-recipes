@@ -11,7 +11,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg bg-warning">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">OrangeZest Recipes</a>
+			<a class="navbar-brand" href="/">OrangeZest Recipes</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
 				aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -44,8 +44,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="card col-sm-6" th:each="listItem : ${listData}">
-				<span th:text="${listItem.id}"></span> <img class="card-img-top" th:src="${listItem.imagePath}" width="612"
-					height="404" alt="Card image cap">
+				<img class="card-img-top" th:src="${listItem.imagePath}" width="612" height="404" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title" th:text="${listItem.title}"></h5>
 					<p class="card-text" th:text="${listItem.description}"></p>
